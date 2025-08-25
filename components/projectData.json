@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "title": "Gogh On!",
+      "pageTag": "gogh-on",
+      "tag": ["code"],
+      "thumbNailImagePath": "../../public/xxx",
+      "description": "xxxxxxxxxxxxxxxxxxxx",
+      "link1": "xxxxxx",
+      "link2": "xxxxxxx",
+      "link3": "xxxxxxxxx"
+    },
+    {
+      "title": "AIDA",
+      "pageTag": "aida",
+      "tag": ["code", "story"],
+      "thumbNailImagePath": "../../public/xxx",
+      "description": "xxxxxxxxxxxxxxxxxxxx",
+      "link1": "xxxxxx",
+      "link2": "xxxxxxx",
+      "link3": "xxxxxxxxx"
+    },
+    {
+      "title": "A Spartan's Journey",
+      "pageTag": "spartan-journey",
+      "tag": ["story"],
+      "thumbNailImagePath": "../../public/xxx",
+      "description": "xxxxxxxxxxxxxxxxxxxx",
+      "link1": "xxxxxx",
+      "link2": "xxxxxxx",
+      "link3": "xxxxxxxxx"
+    },
+    {
+      "title": "The Figmental World of a Sketch Book",
+      "pageTag": "figmental-world",
+      "tag": ["art", "story"],
+      "thumbNailImagePath": "../../public/xxx",
+      "description": "xxxxxxxxxxxxxxxxxxxx",
+      "link1": "xxxxxx",
+      "link2": "xxxxxxx",
+      "link3": "xxxxxxxxx"
+    },
+    {
+      "title": "Metamorphosis",
+      "pageTag": "metamorphosis",
+      "tag": ["art", "story"],
+      "thumbNailImagePath": "../../public/xxx",
+      "description": "xxxxxxxxxxxxxxxxxxxx",
+      "link1": "xxxxxx",
+      "link2": "xxxxxxx",
+      "link3": "xxxxxxxxx"
+    },
+    {
+      "title": "Alice's Lament",
+      "pageTag": "alices-lament",
+      "tag": ["art", "story"],
+      "thumbNailImagePath": "../../public/xxx",
+      "description": "xxxxxxxxxxxxxxxxxxxx",
+      "link1": "xxxxxx",
+      "link2": "xxxxxxx",
+      "link3": "xxxxxxxxx"
+    },
+    {
+      "title": "This Portfolio Website",
+      "pageTag": "portfolio-website",
+      "tag": ["art", "code", "story"],
+      "thumbNailImagePath": "../../public/xxx",
+      "description": "xxxxxxxxxxxxxxxxxxxx",
+      "link1": "xxxxxx",
+      "link2": "xxxxxxx",
+      "link3": "xxxxxxxxx"
+    },
+    {
+      "title": "test",
+      "pageTag": "test",
+      "tag": ["art", "code", "story"],
+      "thumbNailImagePath": "../../public/xxx",
+      "description": "xxxxxxxxxxxxxxxxxxxx",
+      "link1": "xxxxxx",
+      "link2": "xxxxxxx",
+      "link3": "xxxxxxxxx"
+    },
+    {
+      "title": "test",
+      "pageTag": "test",
+      "tag": ["art", "code", "story"],
+      "thumbNailImagePath": "../../public/xxx",
+      "description": "xxxxxxxxxxxxxxxxxxxx",
+      "link1": "xxxxxx",
+      "link2": "xxxxxxx",
+      "link3": "xxxxxxxxx"
+    }
+  ]
+}

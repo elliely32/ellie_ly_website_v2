@@ -1,26 +1,83 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* breakpoints */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* colors */
+  --color-primary: #090b1a;
+  --color-secondary: #0e0e25;
+  --color-accent: #1014ff;
+  --color-accent-hover: #160bde;
+  --color-tertiary: #181937;
+  --color-tertiary-hover: #1f2440;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* fonts */
+  --font-primary: 'Roboto';
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-primary bg-primary text-white leading-relaxed;
+}
+
+.h1 {
+  @apply text-[40px] md:text-[52px] xl:text-[56px] leading-snug tracking-normal font-extrabold;
+}
+
+.h2 {
+  @apply text-[32px] md:text-[36px] xl:text-[38px] leading-[1.15] tracking-tight font-medium;
+}
+
+.h3 {
+  @apply text-[28px] md:text-[30px] xl:text-[32px] leading-[1.2] font-medium;
+}
+
+.h4 {
+  @apply text-[22px] md:text-[26px] font-medium leading-snug;
+}
+
+.container {
+  @apply px-[15px];
+}
+
+.btn {
+  @apply flex items-center justify-center rounded-full cursor-pointer transition-all font-medium h-[56px];
+}
+
+.btn-sm {
+  @apply min-w-[168px] px-5 text-[15px] font-semibold;
+}
+
+.btn-lg {
+  @apply min-w-[200px] px-6;
+}
+
+.btn-accent {
+  @apply bg-accent hover:bg-accent-hover;
+}
+
+.btn-tertiary {
+  @apply bg-tertiary hover:bg-tertiary-hover;
+}
+
+.btn-white {
+  @apply bg-white hover:bg-white/90 text-primary;
+}
+
+.star {
+  width: 25px;
+  aspect-ratio: 1;
+  background: #fff;
+  clip-path: polygon(
+    50% 0,
+    calc(50% * (1 + sin(0.4turn))) calc(50% * (1 - cos(0.4turn))),
+    calc(50% * (1 - sin(0.2turn))) calc(50% * (1 - cos(0.2turn))),
+    calc(50% * (1 + sin(0.2turn))) calc(50% * (1 - cos(0.2turn))),
+    calc(50% * (1 - sin(0.4turn))) calc(50% * (1 - cos(0.4turn)))
+  );
 }
