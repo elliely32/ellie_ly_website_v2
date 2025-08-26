@@ -79,6 +79,7 @@ const Home = ({ containerStyles }) => {
             <Link
               href={link.path}
               key={`link-${idx}`}
+              scroll={false}
               className={`relative text-2xl 2xl:text-lg uppercase flex text-white hover:text-accent-hover`}
             >
               <span className=" relative z-10 ">{link.name}</span>
