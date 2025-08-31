@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import projectData from '@/components/projectData.json';
 import GridGallery from '@/components/GridGallery';
 import GalleryHeader from '@/components/GalleryHeader';
+import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
 
 const Code = () => {
   const codeProject = [...projectData.projects].filter((project) =>
@@ -21,12 +22,13 @@ const Code = () => {
         transition: { delay: 2.4, duration: 0.4, ease: 'easeIn' },
       }}
     >
-      <div className="flex flex-col items-center 2xl:items-start p-10 w-full h-full">
-        <div className="overflow-auto">
+      <ScrollArea className="w-full h-[100vh]">
+        <div className="flex flex-col items-center 2xl:items-start mt-15 mb-30">
           <GalleryHeader title={title} description={description} />
           <GridGallery projects={codeProject} />
         </div>
-      </div>
+        <ScrollBar orientation="vertical" />
+      </ScrollArea>
     </motion.section>
   );
 };

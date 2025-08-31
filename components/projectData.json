@@ -1,10 +1,22 @@
 {
   "projects": [
     {
+      "title": "Benevolent Heart",
+      "year": "2025",
+      "pageTag": "benevolent-heart",
+      "tag": ["art", "story"],
+      "thumbNailImagePath": "/assets/",
+      "description": "xxxxxxxxxxxxxxxxxxxx",
+      "link1": "xxxxxx",
+      "link2": "xxxxxxx",
+      "link3": "xxxxxxxxx"
+    },
+    {
       "title": "Gogh On!",
+      "year": "2022",
       "pageTag": "gogh-on",
       "tag": ["code"],
-      "thumbNailImagePath": "../../public/xxx",
+      "thumbNailImagePath": "/assets/",
       "description": "xxxxxxxxxxxxxxxxxxxx",
       "link1": "xxxxxx",
       "link2": "xxxxxxx",
@@ -12,83 +24,147 @@
     },
     {
       "title": "AIDA",
+      "year": "2025",
       "pageTag": "aida",
       "tag": ["code", "story"],
       "thumbNailImagePath": "../../public/xxx",
       "description": "xxxxxxxxxxxxxxxxxxxx",
-      "link1": "xxxxxx",
-      "link2": "xxxxxxx",
-      "link3": "xxxxxxxxx"
+      "links": [
+        {
+          "linkName": "Process Documentation",
+          "linkAddress": "https://drive.google.com/file/d/1gLWrYI4IiCiRaO8sDWsL_qGRCg-qcICN/view"
+        },
+        {
+          "linkName": "",
+          "linkAddress": ""
+        }
+      ]
     },
     {
       "title": "A Spartan's Journey",
+      "year": "2019",
       "pageTag": "spartan-journey",
       "tag": ["story"],
       "thumbNailImagePath": "../../public/xxx",
       "description": "xxxxxxxxxxxxxxxxxxxx",
-      "link1": "xxxxxx",
-      "link2": "xxxxxxx",
-      "link3": "xxxxxxxxx"
+      "links": [
+        {
+          "linkName": "",
+          "linkAddress": ""
+        },
+        {
+          "linkName": "",
+          "linkAddress": ""
+        }
+      ]
     },
     {
       "title": "The Figmental World of a Sketch Book",
+      "year": "2020",
       "pageTag": "figmental-world",
       "tag": ["art", "story"],
       "thumbNailImagePath": "../../public/xxx",
       "description": "xxxxxxxxxxxxxxxxxxxx",
-      "link1": "xxxxxx",
-      "link2": "xxxxxxx",
-      "link3": "xxxxxxxxx"
+      "links": [
+        {
+          "linkName": "",
+          "linkAddress": ""
+        },
+        {
+          "linkName": "",
+          "linkAddress": ""
+        }
+      ]
     },
     {
       "title": "Metamorphosis",
+      "year": "2024",
       "pageTag": "metamorphosis",
       "tag": ["art", "story"],
       "thumbNailImagePath": "../../public/xxx",
       "description": "xxxxxxxxxxxxxxxxxxxx",
-      "link1": "xxxxxx",
-      "link2": "xxxxxxx",
-      "link3": "xxxxxxxxx"
+      "links": [
+        {
+          "linkName": "",
+          "linkAddress": ""
+        },
+        {
+          "linkName": "",
+          "linkAddress": ""
+        }
+      ]
     },
     {
       "title": "Alice's Lament",
+      "year": "2025",
       "pageTag": "alices-lament",
       "tag": ["art", "story"],
       "thumbNailImagePath": "../../public/xxx",
       "description": "xxxxxxxxxxxxxxxxxxxx",
-      "link1": "xxxxxx",
-      "link2": "xxxxxxx",
-      "link3": "xxxxxxxxx"
+      "links": [
+        {
+          "linkName": "",
+          "linkAddress": ""
+        },
+        {
+          "linkName": "",
+          "linkAddress": ""
+        }
+      ]
     },
     {
       "title": "This Portfolio Website",
+      "year": "2025",
       "pageTag": "portfolio-website",
       "tag": ["art", "code", "story"],
       "thumbNailImagePath": "../../public/xxx",
       "description": "xxxxxxxxxxxxxxxxxxxx",
-      "link1": "xxxxxx",
-      "link2": "xxxxxxx",
-      "link3": "xxxxxxxxx"
+      "links": [
+        {
+          "linkName": "",
+          "linkAddress": ""
+        },
+        {
+          "linkName": "",
+          "linkAddress": ""
+        }
+      ]
     },
     {
       "title": "test",
+      "year": "2025",
       "pageTag": "test",
       "tag": ["art", "code", "story"],
       "thumbNailImagePath": "../../public/xxx",
       "description": "xxxxxxxxxxxxxxxxxxxx",
-      "link1": "xxxxxx",
-      "link2": "xxxxxxx",
-      "link3": "xxxxxxxxx"
+      "links": [
+        {
+          "linkName": "",
+          "linkAddress": ""
+        },
+        {
+          "linkName": "",
+          "linkAddress": ""
+        }
+      ]
     },
     {
       "title": "test",
+      "year": "2025",
       "pageTag": "test",
       "tag": ["art", "code", "story"],
       "thumbNailImagePath": "../../public/xxx",
       "description": "xxxxxxxxxxxxxxxxxxxx",
-      "link1": "xxxxxx",
-      "link2": "xxxxxxx",
-      "link3": "xxxxxxxxx"
+      "links": [
+        {
+          "linkName": "",
+          "linkAddress": ""
+        },
+        {
+          "linkName": "",
+          "linkAddress": ""
+        }
+      ]
     }
   ]
 }

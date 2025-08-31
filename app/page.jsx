@@ -1,4 +1,5 @@
 'use client';
+
 import { motion } from 'framer-motion';
 
 const Home = () => {
@@ -11,9 +12,16 @@ const Home = () => {
       }}
       className="h-screen flex items-center"
     >
-      <div className="flex flex-col xl:flex-row items-center justify-between w-full">
-        <div className="w-full xl:w-[550px]">text</div>
-        <div className="hidden xl:block flex-1 relative z-20"></div>
+      <div className="flex flex-col justify-between gap-10 lg:flex-row w-full h-full">
+        <div className="w-full xl:w-[550px] h-[80%] text-center lg:text-left bg-secondary p-10 pt-[15%]">
+          <p className="h1">Hey, I'm Ellie!</p>
+          <p className="h1">Artist, Coder, Storyteller</p>
+        </div>
+        <img
+          className="space-y-1 h-[60%] m-20 md:mt-[25%]"
+          src="/assets/home-image-temp.png"
+          alt="ellie-drawing"
+        />
       </div>
     </motion.section>
   );

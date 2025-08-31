@@ -1,7 +1,5 @@
 'use client';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
-import aboutPhoto from '@/public/assets/about-photo.jpg';
 
 const About = () => {
   return (
@@ -13,12 +11,10 @@ const About = () => {
       }}
     >
       <div className="flex p-10 gap-15">
-        <Image
-          src={aboutPhoto}
-          height={700}
-          width={500}
+        <img
+          src="/assets/about-photo.jpg"
           alt={'Headshot of Ellie Ly'}
-          className="drop-shadow-lg-color-accent"
+          className="h-[auto] w-[500px] drop-shadow-lg-color-accent"
         />
         <div className="w-[50%]">
           <h1 className="h1 uppercase">A bit About Me</h1>
