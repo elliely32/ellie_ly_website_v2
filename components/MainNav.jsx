@@ -6,7 +6,11 @@ const Home = () => {
   return (
     <nav className="items-center 2xl:unset flex flex-col justify-center align-center ">
       <div className="hidden 2xl:block pb-35 pt-10 h1 uppercase text-white ">
-        <Link href={'/'} className="flex gap-2 justify-center items-center">
+        <Link
+          href={'/'}
+          className="flex gap-2 justify-center items-center"
+          scroll={false}
+        >
           ELLIE
         </Link>
       </div>

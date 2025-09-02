@@ -131,10 +131,10 @@
       ]
     },
     {
-      "title": "test",
+      "title": "October Art Challenge 2023",
       "year": "2025",
-      "pageTag": "test",
-      "tag": ["art", "code", "story"],
+      "pageTag": "october-art-2023",
+      "tag": ["art"],
       "thumbNailImagePath": "../../public/xxx",
       "description": "xxxxxxxxxxxxxxxxxxxx",
       "links": [

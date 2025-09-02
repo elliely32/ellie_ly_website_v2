@@ -19,6 +19,7 @@ const MobileNav = () => {
             setOpenMenu(false);
           }}
           className="h1 uppercase"
+          scroll={false}
         >
           Ellie
         </Link>
